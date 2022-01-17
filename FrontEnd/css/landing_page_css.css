@@ -1,0 +1,92 @@
+.nav_logo
+{
+  height: 60px;
+}
+@media only screen and (min-width: 600px) {
+  .nav_logo {
+    width:400px;
+    height: 70px;
+  }
+}
+.top_nav
+{
+  background-color: #00394F;
+
+}
+
+.nav_item
+{
+  color:white;
+  font-size: 25px;
+}
+@media only screen and (min-width: 600px) {
+  .nav_item {
+    font-size: 30px;
+  }
+}
+
+
+.banner_image
+{
+  padding-top: 150;
+}
+
+.devnote_title_banner
+{
+  font-size: 70px;
+  padding-top: 100;
+}
+
+.banner_description
+{
+  font-size: 30px;
+  font-style: italic;
+}
+
+.banner_signup
+{
+  font-size: 30px;
+  background-color: #005F73;
+  text-align: center;
+  color: white;
+  border: none;
+  text-decoration: none;
+  cursor: pointer;
+  padding: 10px 10px;
+  border-radius: 10px;
+}
+.banner_signup:hover {opacity: 0.6}
+
+.productivity_img
+{
+  border-radius: 30px;
+  width:100%;
+}
+
+@media only screen and (min-width: 600px) {
+  .text_paddding {
+    padding-right: 30;
+  }
+}
+
+.info_description
+{
+  font-size: 20px;
+}
+
+.footer
+{
+  background-color: #005F73;
+  color: white;
+}
+.github
+{
+  padding-top:20;
+  padding-bottom:20;
+  width:100px;
+}
+
+.features_title
+{
+  font-size: 60px;
+}

@@ -1,0 +1,131 @@
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+  border-radius: 25px;
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+}
+@media only screen and (min-width: 600px) {
+  .modal {
+    padding-left: 250;
+  }
+}
+
+/* The Close Button */
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+
+.create_note_submit_button
+{
+  font-size: 20px;
+  background-color: #005F73;
+  text-align: center;
+  color: white;
+  border: none;
+  text-decoration: none;
+  cursor: pointer;
+  padding: 10px 10px;
+  width:200px;
+}
+.edit_button
+{
+  font-size: 30px;
+  cursor: pointer;
+}
+.edit_button:hover {opacity: 0.6}
+
+
+.modal_edit_button
+{
+  font-size: 20px;
+  background-color: #005F73;
+  text-align: center;
+  color: white;
+  border: none;
+  text-decoration: none;
+  cursor: pointer;
+  padding: 10px 10px;
+  width:150px;
+}
+.modal_view_button
+{
+  font-size: 20px;
+  background-color: #005F73;
+  text-align: center;
+  color: white;
+  border: none;
+  text-decoration: none;
+  cursor: pointer;
+  padding: 10px 10px;
+  width:150px;
+}
+.modal_download_button
+{
+  font-size: 20px;
+  background-color: #005F73;
+  text-align: center;
+  color: white;
+  border: none;
+  text-decoration: none;
+  cursor: pointer;
+  padding: 10px 10px;
+  width:150px;
+}
+.modal_delete_button
+{
+  font-size: 20px;
+  background-color: #005F73;
+  text-align: center;
+  color: white;
+  border: none;
+  text-decoration: none;
+  cursor: pointer;
+  padding: 10px 10px;
+  width:150px;
+}
+
+.view_details
+{
+  color: #343A40;
+}
+.edit_note_submit_button
+{
+  font-size: 20px;
+  background-color: #005F73;
+  text-align: center;
+  color: white;
+  border: none;
+  text-decoration: none;
+  cursor: pointer;
+  padding: 10px 10px;
+  width:200px;
+}

@@ -1,0 +1,79 @@
+.signup_content
+{
+  text-align: center;
+  padding-top: 50;
+
+}
+
+@media only screen and (min-width: 600px) {
+  .signup_content {
+    padding-left: 350;
+    padding-right:350;
+  }
+}
+
+.login_content
+{
+  text-align: center;
+  padding-top: 50;
+
+}
+
+@media only screen and (min-width: 600px) {
+  .login_content {
+    padding-left: 350;
+    padding-right:350;
+  }
+}
+
+.login_button
+{
+  font-size: 20px;
+  background-color: #005F73;
+  text-align: center;
+  color: white;
+  border: none;
+  text-decoration: none;
+  cursor: pointer;
+  padding: 10px 10px;
+}
+.login_button:hover {opacity: 0.6}
+
+.create_account_button
+{
+  font-size: 20px;
+  background-color: #005F73;
+  text-align: center;
+  color: white;
+  border: none;
+  text-decoration: none;
+  cursor: pointer;
+  padding: 10px 10px;
+}
+.create_account_button:hover {opacity: 0.6}
+form {
+    display: inline-block;
+    text-align: left;
+}
+label
+{
+  font-size: 20px;
+  color: #343A40;
+}
+
+input
+{
+  padding: 10px;
+  width: 300px;
+
+}
+
+hr
+{
+  border:1px solid #e9ecef;
+}
+
+.statement
+{
+  font-size: 20px;
+}

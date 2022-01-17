@@ -1,0 +1,62 @@
+<html>
+
+  <title>DevNote</title>
+  <link rel="icon" href="./template_images/DevNote_tab_icon.png">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-black.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="./css/devnote_template_css.css">
+  <link rel="stylesheet" href="./css/space_option_css.css">
+  <script src="./backend_js/calendar_tasks_js.js"></script>
+
+  <header>
+  </header>
+
+
+  <body class="body_background">
+    <!--Top navigation bar-->
+    <div class="w3-top">
+      <div class="top_nav w3-bar w3-top w3-left-align w3-large">
+        <a class="w3-bar-item w3-button w3-right w3-hide-large w3-xxxlarge " href="javascript:void(0)" onclick="w3_open()"><i class="fa fa-bars" style="color:#fff;"></i></a>
+        <a href="./DevNote_home.html" class="w3-bar-item w3-button w3-left"><i class="fa fa-home top_nav_icon"></i></a>
+        <a href="./DevNote_account_page.html" class="w3-bar-item w3-button w3-right"><i class="fa fa-user-circle-o top_nav_icon"></i></a>
+      </div>
+    </div>
+
+
+    <!-- Sidebar -->
+    <nav class="w3-sidebar w3-bar-block w3-collapse w3-large w3-animate-left" id="mySidebar">
+      <a href="javascript:void(0)" onclick="w3_close()" class="w3-right w3-xlarge w3-padding-large w3-hover-black w3-hide-large" title="Close Menu">
+        <i class="fa fa-remove"></i>
+      </a>
+      <br>
+      <img class="w3-bar-item" src="./template_images/DevNote_Icon_2.png"></img>
+      <br>
+      <!--<a class="w3-bar-item w3-button w3-hover-black" href="#">Spaces</a>-->
+      <br>
+      <a class="w3-bar-item w3-button side_bar_text" href="./DevNote_spaces.html"><i class="fa fa-cubes"></i> Spaces</a>
+
+      <a class="w3-bar-item w3-button side_bar_text" onclick="request_tasks_calendar()"><i class="fa fa-calendar"></i> Calendar</a>
+      <br>
+      <a class="w3-bar-item w3-button side_bar_text" onclick="logout()"><i class="	fa fa-arrow-circle-o-right"></i> Logout</a>
+
+
+    </nav>
+
+  <div id="app_body" class="app_body">
+    <h1 class="space_option">Space Option</h1>
+    <div class="options">
+      <a href="./DevNote_todo_page.html" class="to-do_button"><i class="fa fa-check-square-o"></i><br>To-Do</a>
+      <a href="./DevNote_notes_page.html" class="notes_button"><i class="fa fa-book"></i><br>Notes</a>
+    </div>
+  </div>
+
+  <script src="./js/navigation_bar_functions.js"></script>
+  <script src="./backend_js/logout_js.js"></script>
+
+  </body>
+
+</html>

@@ -1,0 +1,39 @@
+<html>
+  <title>DevNote Login</title>
+  <link rel="icon" href="./template_images/DevNote_tab_icon.png">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="./css/login_signup_css.css">
+
+  <header>
+  </header>
+
+
+  <body onload="check_login()">
+
+    <div class="login_content">
+        <img src="./template_images/DevNote_tab_icon.png">
+
+        <h1>Login</h1>
+        <p class="statement">Welcome back!</p>
+        <hr>
+        <form>
+          <label for="username">Username</label><br>
+          <input type="text" id="username" name="username" placeholder="username123"><br><br>
+          <label for="user_password">Password</label><br>
+          <input type="password" id="user_password" name="user_password" placeholder="password"><br><br>
+        </form>
+        <br>
+        <button class="login_button" onclick="login_request()">Login</button>
+        <br>
+        <br>
+
+        <center><a href="./DevNote_signup.html">Sign up</a></center>
+    </div>
+    <br>
+
+  <script src="./backend_js/login_js.js"></script>
+
+  </body>
+
+
+</html>

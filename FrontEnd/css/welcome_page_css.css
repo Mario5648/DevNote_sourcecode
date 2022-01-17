@@ -1,0 +1,48 @@
+.welcome_message
+{
+  text-align: center;
+  font-size: 70px;
+  padding-top:100;
+}
+
+.random_quote
+{
+  text-align: center;
+  font-size: 20px;
+  font-style: italic;
+  padding-left: 120;
+  padding-right: 120;
+  padding-top: 200;
+}
+
+.person_quote
+{
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+  color: #CA6702;
+}
+.welcome_message_mobile
+{
+  text-align: center;
+  font-size: 70px;
+  padding-top:100;
+}
+
+.random_quote_mobile
+{
+  text-align: center;
+  font-size: 20px;
+  font-style: italic;
+  padding-left: 120;
+  padding-right: 120;
+  padding-top: 50;
+}
+
+.person_quote_mobile
+{
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+  color: #CA6702;
+}

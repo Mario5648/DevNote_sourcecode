@@ -1,0 +1,46 @@
+.w3-sidebar {
+  z-index: 3;
+  width: 250px;
+  top: 66px;
+  bottom: 0;
+  height: inherit;
+  background-color: #e9ecef;
+}
+.top_nav_icon
+{
+  font-size:50px;
+  color:white;
+}
+.top_nav
+{
+  background-color: #00394F;
+}
+.sidebar_username
+{
+  font-size:20px;
+}
+
+.sidebar_hr
+{
+  border: 3px solid #0D0D0D;
+  border-radius: 5px;
+}
+
+.body_background
+{
+  background-color: #f8f9fa;
+}
+.side_bar_text
+{
+  color: #343A40;
+}
+
+.app_body
+{
+  padding-top:50;
+}
+@media only screen and (min-width: 1000px) {
+  .app_body {
+    padding-left:250;
+  }
+}

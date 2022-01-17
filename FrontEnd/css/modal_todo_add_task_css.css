@@ -1,0 +1,12 @@
+.create_task_submit_button
+{
+  font-size: 20px;
+  background-color: #005F73;
+  text-align: center;
+  color: white;
+  border: none;
+  text-decoration: none;
+  cursor: pointer;
+  padding: 10px 10px;
+  width:150px;
+}

@@ -1,0 +1,43 @@
+.space_option
+{
+  padding-left: 50;
+  padding-top: 50;
+}
+.options
+{
+  text-align: center;
+  padding-top: 100;
+}
+.to-do_button
+{
+  background-color: #005F73;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  font-size: 100px;
+  margin: 4px 2px;
+  opacity: 1;
+  transition: 0.3s;
+  display: inline-block;
+  text-decoration: none;
+  cursor: pointer;
+}
+.to-do_button:hover {opacity: 0.6}
+
+.notes_button
+{
+  background-color: #005F73;
+  border: none;
+  color: white;
+  padding: 16px 36px;
+  text-align: center;
+  font-size: 100px;
+  margin: 4px 2px;
+  opacity: 1;
+  transition: 0.3s;
+  display: inline-block;
+  text-decoration: none;
+  cursor: pointer;
+}
+.notes_button:hover {opacity: 0.6}

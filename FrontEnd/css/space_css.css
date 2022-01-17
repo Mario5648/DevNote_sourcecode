@@ -1,0 +1,56 @@
+.option_path
+{
+  padding-left: 50;
+  padding-top: 50;
+}
+@media only screen and (min-width: 600px) {
+  .span_add_button {
+    padding-left:50;
+  }
+}
+.add_button
+{
+  font-size: 20px;
+  background-color: #005F73;
+  text-align: center;
+  color: white;
+  border: none;
+  text-decoration: none;
+  cursor: pointer;
+  padding: 10px 10px;
+}
+.add_button:hover {opacity: 0.6}
+
+
+.space_list
+{
+  padding-top:100;
+  padding-left: 50;
+  padding-right: 50;
+}
+
+.view_button
+{
+  font-size: 20px;
+  background-color: #005F73;
+  text-align: center;
+  color: white;
+  border: none;
+  text-decoration: none;
+  cursor: pointer;
+  padding: 10px 10px;
+}
+.view_button:hover {opacity: 0.6}
+
+.delete_button
+{
+  font-size: 20px;
+  background-color: #005F73;
+  text-align: center;
+  color: white;
+  border: none;
+  text-decoration: none;
+  cursor: pointer;
+  padding: 10px 10px;
+}
+.delete_button:hover {opacity: 0.6}
